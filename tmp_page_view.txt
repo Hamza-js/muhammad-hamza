@@ -1,0 +1,238 @@
+"use client";
+
+import Link from "next/link";
+import { Section } from "@/components/section";
+import { M, Reveal, staggerContainer } from "@/components/motion";
+import { Twitter, Github, Link2, Activity, GitBranch } from "lucide-react";
+
+export default function Home() {
+  return (
+    <div className="pb-24">
+      <Section id="home" className="pt-24 md:pt-28">
+        <M.div
+          variants={staggerContainer}
+          initial="hidden"
+          animate="show"
+          className="mx-auto max-w-3xl"
+        >
+          <Reveal>
+            <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-white">
+              Hey, I'm <span className="text-amber-400">Muhammad Hamza</span>!
+            </h1>
+          </Reveal>
+
+          <div className="mt-6 space-y-3 text-slate-300 text-lg">
+            <Reveal as={M.p}>
+              A freelance full‑stack engineer based in
+              <a
+                href="#"
+                className="ml-1 underline decoration-amber-400/60 underline-offset-4 hover:text-amber-300"
+              >
+                Wrocław
+              </a>
+              , Poland.
+            </Reveal>
+            <Reveal as={M.p}>
+              I specialize in developing applications using the React ecosystem.
+            </Reveal>
+            <Reveal as={M.p}>
+              Currently, I'm leading the front‑end team at
+              <a
+                href="#"
+                className="ml-1 underline decoration-amber-400/60 underline-offset-4 hover:text-amber-300"
+              >
+                Propbar
+              </a>
+              .
+            </Reveal>
+          </div>
+
+          <div className="mt-6">
+            <svg
+              width="140"
+              height="16"
+              viewBox="0 0 140 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2 8c6 0 6-6 12-6s6 6 12 6 6-6 12-6 6 6 12 6 6-6 12-6 6 6 12 6 6-6 12-6 6 6 12 6 6-6 12-6 6 6 12 6"
+                stroke="#F59E0B"
+                strokeWidth="3"
+                strokeLinecap="round"
+              />
+            </svg>
+          </div>
+
+          <div className="mt-10">
+            <h3 className="text-base font-semibold text-slate-200">
+              Find me on
+            </h3>
+            <ul className="mt-4 flex flex-wrap items-center gap-x-6 gap-y-3 text-slate-300">
+              <li className="inline-flex items-center gap-2">
+                <Twitter className="h-4 w-4" />
+                <a href="#" className="hover:text-slate-100">
+                  Twitter
+                </a>
+              </li>
+              <li className="inline-flex items-center gap-2">
+                <Github className="h-4 w-4" />
+                <a href="#" className="hover:text-slate-100">
+                  GitHub
+                </a>
+              </li>
+
+              <li className="inline-flex items-center gap-2">
+                <Link2 className="h-4 w-4" />
+                <a href="#" className="hover:text-slate-100">
+                  LinkedIn
+                </a>
+              </li>
+              <li className="inline-flex items-center gap-2">
+                <span className="inline-block h-4 w-4 rounded bg-slate-400" />
+                <a href="#" className="hover:text-slate-100">
+                  Upwork
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div className="mt-10">
+            <h3 className="text-base font-semibold text-slate-200">Contact</h3>
+            <p className="mt-2 text-slate-300">
+              You can reach me anytime at
+              <a
+                href="mailto:hello@example.com"
+                className="ml-1 underline decoration-amber-400/60 underline-offset-4 hover:text-amber-300"
+              >
+                hello@example.com
+              </a>
+            </p>
+          </div>
+        </M.div>
+      </Section>
+
+      <footer className="mt-16 border-t border-white/10 py-6 text-slate-400">
+        <div className="mx-auto flex max-w-6xl items-center justify-between px-4 md:px-6 text-xs md:text-sm">
+          <span>
+            © {new Date().getFullYear()} Built with{" "}
+            <span className="text-rose-400">♥</span> by Muhammad Hamza
+          </span>
+          <div className="flex items-center gap-6">
+            <a href="#" className="hover:text-slate-200">
+              Uses
+            </a>
+            <a href="#" className="hover:text-slate-200">
+              Tech Stack
+            </a>
+            <Activity className="h-4 w-4" />
+            <GitBranch className="h-4 w-4" />
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+}
+"use client";
+
+import Link from "next/link";
+import { Section } from "@/components/section";
+import { M, Reveal, staggerContainer } from "@/components/motion";
+import { Twitter, Github, Link2, Activity, GitBranch } from "lucide-react";
+
+export default function Home() {
+  return (
+    <div className="pb-24">
+      <Section id="home" className="pt-24 md:pt-28">
+        <M.div
+          variants={staggerContainer}
+          initial="hidden"
+          animate="show"
+          className="mx-auto max-w-3xl"
+        >
+          <Reveal>
+            <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-white">
+              Hey, I'm <span className="text-amber-400">Muhammad Hamza</span>!
+            </h1>
+          </Reveal>
+
+          <div className="mt-6 space-y-3 text-slate-300 text-lg">
+            <Reveal as={M.p}>
+              A freelance full-stack engineer based in Pakistan.
+            </Reveal>
+            <Reveal as={M.p}>
+              I specialize in developing full-stack web applications using the React ecosystem.
+            </Reveal>
+          </div>
+
+          <div className="mt-6">
+            <svg
+              width="140"
+              height="16"
+              viewBox="0 0 140 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2 8c6 0 6-6 12-6s6 6 12 6 6-6 12-6 6 6 12 6 6-6 12-6 6 6 12 6 6-6 12-6 6 6 12 6"
+                stroke="#F59E0B"
+                strokeWidth="3"
+                strokeLinecap="round"
+              />
+            </svg>
+          </div>
+
+          <div className="mt-10">
+            <h3 className="text-base font-semibold text-slate-200">Find me on</h3>
+            <ul className="mt-4 flex flex-wrap items-center gap-x-6 gap-y-3 text-slate-300">
+              <li className="inline-flex items-center gap-2">
+                <Twitter className="h-4 w-4" />
+                <a href="#" className="hover:text-slate-100">Twitter</a>
+              </li>
+              <li className="inline-flex items-center gap-2">
+                <Github className="h-4 w-4" />
+                <a href="#" className="hover:text-slate-100">GitHub</a>
+              </li>
+              <li className="inline-flex items-center gap-2">
+                <Link2 className="h-4 w-4" />
+                <a href="#" className="hover:text-slate-100">LinkedIn</a>
+              </li>
+              <li className="inline-flex items-center gap-2">
+                <span className="inline-block h-4 w-4 rounded bg-slate-400" />
+                <a href="#" className="hover:text-slate-100">Upwork</a>
+              </li>
+            </ul>
+          </div>
+
+          <div className="mt-10">
+            <h3 className="text-base font-semibold text-slate-200">Contact</h3>
+            <p className="mt-2 text-slate-300">
+              You can reach me anytime at
+              <a
+                href="mailto:hello@example.com"
+                className="ml-1 underline decoration-amber-400/60 underline-offset-4 hover:text-amber-300"
+              >
+                hello@example.com
+              </a>
+            </p>
+          </div>
+        </M.div>
+      </Section>
+
+      <footer className="mt-16 border-t border-white/10 py-6 text-slate-400">
+        <div className="mx-auto flex max-w-6xl items-center justify-between px-4 md:px-6 text-xs md:text-sm">
+          <span>
+            <span>&copy; {new Date().getFullYear()}</span> Built with <span className="text-rose-400">&#9829;</span> by Muhammad Hamza
+          </span>
+          <div className="flex items-center gap-6">
+            <a href="#" className="hover:text-slate-200">Uses</a>
+            <a href="#" className="hover:text-slate-200">Tech Stack</a>
+            <Activity className="h-4 w-4" />
+            <GitBranch className="h-4 w-4" />
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+}
+

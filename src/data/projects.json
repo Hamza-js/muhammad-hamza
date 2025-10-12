@@ -1,0 +1,37 @@
+[
+  {
+    "id": "google-docs-clone",
+    "title": "📝 Full-Stack Google Docs Clone",
+    "description": "I developed a full-featured Google Docs clone that enables teams and individuals to collaborate in real-time on documents. With a powerful text editor, collaboration features, and modern UI/UX, this project demonstrates advanced full-stack development skills, including real-time data syncing, authentication, and custom editor extensions.",
+    "demoUrl": "https://google-docs-clone-iota-five.vercel.app",
+    "githubUrl": "https://github.com/Hamza-js/google-docs-clone.git",
+    "skills": [
+      "Next.js",
+      "React",
+      "Clerk",
+      "Tailwind",
+      "Convex",
+      "Zustand",
+      "Vercel",
+      "Shadcn"
+    ],
+    "thumbnail": "/google-docs.webp"
+  },
+  {
+    "id": "slack-clone",
+    "title": "Slack clone",
+    "description": "I built a fully functional full-stack Slack clone with modern technologies and a focus on scalability, collaboration, and real-time features. The app replicates the Slack experience with real-time messaging, workspace management, threads, reactions, and media sharing — making it a powerful team collaboration tool.",
+    "demoUrl": "https://slack-clone-eight-kappa.vercel.app",
+    "githubUrl": "https://github.com/Hamza-js/slack-clone.git",
+    "skills": [
+      "Next.js",
+      "React",
+      "Convex",
+      "Tailwind",
+      "Next Auth",
+      "Vercel",
+      "Shadcn"
+    ],
+    "thumbnail": "/slack-clone.webp"
+  }
+]
