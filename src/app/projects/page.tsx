@@ -46,10 +46,13 @@ export default function ProjectsPage() {
       <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight text-white">
         Projects
       </h1>
+      <p className="mt-2 text-sm text-slate-400">
+        Select a filter below to view projects by specific skills.
+      </p>
 
       {/* Filter pills */}
-      <div className="mt-6 overflow-x-auto">
-        <div className="flex w-max gap-2">
+      <div className="mt-6">
+        <div className="flex flex-wrap gap-2">
           {skills.map((s) => (
             <button
               key={s}
@@ -94,7 +97,7 @@ function ProjectCard({ project }: { project: Project }) {
               {project.title}
             </h3>
             <div className="mt-2 flex flex-wrap gap-1">
-              {project.skills.slice(0, 10).map((s) => (
+              {project.skills.slice(0, 5).map((s) => (
                 <span
                   key={s}
                   className="rounded-full border border-white/10 bg-white/5 px-2 py-0.5 text-xs text-slate-300"

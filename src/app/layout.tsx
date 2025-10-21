@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 // Removed next/font/google to avoid network stalls; using CSS stack instead
 import { Header } from "@/components/header";
 import { GradientBackground } from "@/components/gradient-bg";
+import { BgGrid } from "@/components/bg-grid";
 
 // Use global CSS font-sans (system stack or locally provided)
 
@@ -34,6 +35,7 @@ export default function RootLayout({
       <body className="font-sans">
         <div className="site-bg relative min-h-dvh text-foreground">
           <GradientBackground />
+          <BgGrid />
           <Header />
           <main className="mx-auto max-w-7xl px-4 md:px-6">{children}</main>
         </div>
