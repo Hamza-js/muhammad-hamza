@@ -1,5 +1,27 @@
 [
   {
+    "id": "dental-assistant",
+    "title": "AI-Powered Dental Assistant",
+    "description": "I built a fully functional full-stack AI dental assistant for instant advice, book smart appointments, and get personalized care recommendations.",
+    "demoUrl": "https://dent-wise-sandy.vercel.app",
+    "githubUrl": "https://github.com/Hamza-js/dent-wise.git",
+    "skills": [
+      "Next.js",
+      "React",
+      "Tailwind",
+      "Shadcn",
+      "Prisma",
+      "Postgres",
+      "Clerk Auth",
+      "Clerk Payment Integration",
+      "Vapi",
+      "Resend",
+      "Vercel",
+      "AI Integrations"
+    ],
+    "thumbnail": "/dental-assistant.png"
+  },
+  {
     "id": "google-docs-clone",
     "title": "📝 Full-Stack Google Docs Clone",
     "description": "I developed a full-featured Google Docs clone that enables teams and individuals to collaborate in real-time on documents. With a powerful text editor, collaboration features, and modern UI/UX, this project demonstrates advanced full-stack development skills, including real-time data syncing, authentication, and custom editor extensions.",
