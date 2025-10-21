@@ -56,5 +56,22 @@
       "Shadcn"
     ],
     "thumbnail": "/slack-clone.webp"
+  },
+  {
+    "id": "macbook-landing",
+    "title": "MacBook 3D Landing",
+    "description": "A high-performance 3D MacBook landing page featuring smooth GSAP-powered scroll and entrance animations, built with React, Vite, and React Three Fiber. It showcases an interactive MacBook model (Three.js + drei), responsive layout, and optimized rendering with lazy-loaded assets and state managed via Zustand.",
+    "demoUrl": "",
+    "githubUrl": "",
+    "skills": [
+      "React",
+      "GSAP",
+      "Three.js",
+      "Tailwind",
+      "Zustand",
+      "Landing Page",
+      "Animation"
+    ],
+    "thumbnail": "/macbook-landing.avif"
   }
 ]
