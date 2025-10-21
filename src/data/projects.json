@@ -2,23 +2,23 @@
   {
     "id": "dental-assistant",
     "title": "AI-Powered Dental Assistant",
-    "description": "I built a fully functional full-stack AI dental assistant for instant advice, book smart appointments, and get personalized care recommendations.",
+    "description": "An intelligent full-stack SaaS application designed to revolutionize dental care through AI. The app provides instant AI-driven dental advice, allows users to book smart appointments, and delivers personalized care recommendations. Built with Next.js, Prisma, and Postgres for a robust backend, integrated with Clerk for authentication and payments, and enhanced with AI voice and text interaction powered by Vapi. Resend handles automated communication, while a clean Shadcn + Tailwind UI ensures a seamless, modern user experience.",
     "demoUrl": "https://dent-wise-sandy.vercel.app",
     "githubUrl": "https://github.com/Hamza-js/dent-wise.git",
     "skills": [
       "Next.js",
       "React",
-      "Tailwind",
-      "Shadcn",
-      "Prisma",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "Prisma ORM",
       "Postgres",
       "Clerk Auth",
-      "Clerk Payment Integration",
-      "Vapi",
+      "Clerk Payments",
+      "Vapi AI Integration",
       "Resend",
       "Vercel",
-      "AI Integrations",
-      "SAAS"
+      "AI / LLM Integration",
+      "SaaS Architecture"
     ],
     "thumbnail": "/dental-assistant.png"
   },
@@ -31,12 +31,12 @@
     "skills": [
       "Next.js",
       "React",
+      "Tailwind CSS",
+      "Shadcn UI",
       "Clerk Auth",
-      "Tailwind",
       "Convex",
       "Zustand",
-      "Vercel",
-      "Shadcn"
+      "Vercel"
     ],
     "thumbnail": "/google-docs.webp"
   },
@@ -50,10 +50,10 @@
       "Next.js",
       "React",
       "Convex",
-      "Tailwind",
+      "Tailwind CSS",
+      "Shadcn UI",
       "Next Auth",
-      "Vercel",
-      "Shadcn"
+      "Vercel"
     ],
     "thumbnail": "/slack-clone.webp"
   },
@@ -61,16 +61,17 @@
     "id": "macbook-landing",
     "title": "MacBook 3D Landing",
     "description": "A high-performance 3D MacBook landing page featuring smooth GSAP-powered scroll and entrance animations, built with React, Vite, and React Three Fiber. It showcases an interactive MacBook model (Three.js + drei), responsive layout, and optimized rendering with lazy-loaded assets and state managed via Zustand.",
-    "demoUrl": "",
-    "githubUrl": "",
+    "demoUrl": "https://gsap-macbook-landing-three.vercel.app",
+    "githubUrl": "https://github.com/Hamza-js/gsap-macbook-landing.git",
     "skills": [
       "React",
+      "Tailwind CSS",
       "GSAP",
       "Three.js",
-      "Tailwind",
       "Zustand",
       "Landing Page",
-      "Animation"
+      "Animation",
+      "Vercel"
     ],
     "thumbnail": "/macbook-landing.avif"
   }
